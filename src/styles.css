@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.timer {
+  background: white;
+  width: 120px;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+.restart {
+  background-color: lightgreen;
+  transition: all 0.3s ease;
+  border: 1px grey solid;
+}
+.restart:hover {
+  background-color: greenyellow;
+  transform: scale(1.07);
+}
+.result {
+  margin-left: 30px;
+  background-color: lightpink;
+  transition: all 0.3s ease;
+  border: 1px grey solid;
+}
+.result:hover {
+  background-color: palevioletred;
+  transform: scale(1.07);
+}
+.speed {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 15px 25px;
+  border-radius: 14px;
+  margin-left: 30px;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+.acc {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 15px 25px;
+  border-radius: 14px;
+  background: white;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+.res {
+  border: 3px solid plum;
+  margin-top: 10px;
+
+  height: 80px;
+}
